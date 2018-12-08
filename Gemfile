@@ -42,6 +42,7 @@ gem 'jbuilder', '~> 2.5'
 group :development do
   gem 'sqlite3'
 end
+gem 'rb-readline'
 group :production do
   gem 'pg'
 end
@@ -58,6 +59,9 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
-
+gem 'devise'
+gem 'gravtastic'
+gem 'activeadmin', github: 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
